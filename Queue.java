@@ -1,4 +1,4 @@
-public class QueueD{
+public class QueueDSA {
     private int[] queueArray; //array to store queue
     private int front; //index of front element
     private int rear; //index of last element
