@@ -1,4 +1,3 @@
-import java.io.*;
 import java.util.*;
 
 public class short_job_first{
@@ -58,5 +57,7 @@ public class short_job_first{
          averageTAT = (float)total/n;
          System.out.println("Average waiting time: " + averageWT);
          System.out.println("Average TurnAround time: " + averageTAT);
+         
+         sc.close();
     }
 }

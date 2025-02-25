@@ -1,6 +1,5 @@
 import java.util.LinkedList;
 import java.util.Queue;
-import java.util.Scanner;
  class Processes {
      int id, burstTime, remainingTime, completionTime, waitingTime, turnAroundTime;
      String name ;
