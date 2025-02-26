@@ -1,3 +1,4 @@
+package OS_4thSem_Lab;
 public class Queue_3rd{
     private int[] queueArray; //array to store queue
     private int front; //index of front element
@@ -6,7 +7,7 @@ public class Queue_3rd{
     private int size; //Current size of queue
     
     //Constructor to initialize queue
-    public Main(int capacity){
+    public Queue_3rd(int capacity){
         this.capacity = capacity;
         queueArray =new int[capacity];
         front = 0;
@@ -71,7 +72,7 @@ public class Queue_3rd{
     }
     
     public static void main(String[] args){
-        Main queue = new Main(5);
+        Queue_3rd queue = new Queue_3rd(5);
         
         queue.enqueue(12);
         queue.enqueue(30);
